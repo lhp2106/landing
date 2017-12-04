@@ -1,0 +1,52 @@
+(function(){
+if (typeof(_admguid) == "undefined") {
+var _admguid = ADM_AdsTracking.get("__uid");
+}
+var dataTvc={
+"ZONEID":2437,
+"TYPE":2,
+"CAMPLIST": ["1293086"],
+"CAMPLOCA": {"1293086":"59,5,52"},
+"NORMAL": {"1293086":{"538909":{"color":"","bantype":"1","campaignid":"1293086","file_name":"","link3rd":"","sex":"0","format":1,"linkclick":"https:\/\/www.facebook.com\/cupnoodlesvn\/","l":"5,52,59","path":"2017\/11\/","cpa":"0","tmp":1,"istracking":false,"format_config":"{\"display_other_site\":{\"muare.vn\":\"<1500\",\"nld.com.vn\":\"<1367\",\"default\":\"<1024\"}}","width":"475","id":"538909","items":{"k301":{"image":"","image_plus":""},"k302":{"image":"","addon":""},"k2206":{"config":"{\"medium\":{\"height\":\"250\",\"access_click\":1},\"expand\":{\"width\":1600,\"height\":1200,\"screen_center\":true},\"mini\":{\"plus\":{\"width\":\"120\",\"height\":\"250\"},\"classic\":{\"width\":\"300\",\"height\":\"150\"}},\"addon_align_left\":1,\"hiddenTracking\":{\"seed\":0.08,\"ctr\":0.018,\"tos\":1},\"only_html5\":1}"},"k2204":{"title":""},"k2207":{"image_tablet":""},"k2208":{"image_plus_tablet":""},"k2209":{"script_tablet":""},"k2210":{"medium_html5":"nissin_475_325_1511343186450.html"},"k2211":{"image_html5":"nissin_300_150_15113431983819.html"},"k2212":{"image_plus_html5":"nissin_120_250_15113432034917.html"},"k2213":{"addon_html5":""},"k2214":{"expand_html5":"nissin_1600_1200_15113431916665.html"},"os":"{\"browser\":[\"IE\",\"Chrome\",\"Opera\"]}"},"age":"0","height":"325"}}}
+};
+var sp = ADS_CHECKER.getQuery('sp');
+var i = ADS_CHECKER.getQuery('i');
+var chk = false;
+if (sp == 'ballontracking') {
+chk=true;
+}
+if (chk) {
+var strurl = "//pson.logging.admicro.vn/dmtb?h=" + _admguid + "&u=" + encodeURIComponent(document.URL) + "&p=ballontracking&zid="+dataTvc.ZONEID+"&n=0,"+(document.domain!='dantri.com.vn'?(ADS_CHECKER.wdWidth()-40):'-1')+"&loc=" + ADS_City + "&bs=" + i;
+} else {
+var strurl = "//pson.logging.admicro.vn/dmtb?h=" + _admguid + "&u=" + encodeURIComponent(document.URL) + "&p=ballon&zid="+dataTvc.ZONEID+"&n=0,"+(document.domain!='dantri.com.vn'?(ADS_CHECKER.wdWidth()-40):'-1')+"&loc=" + ADS_City;
+}
+var strkey='__dmtb'+dataTvc.ZONEID;
+_admloadJs(strurl,function(){
+if (typeof(window[strkey]) != undefined && window[strkey] != null && typeof(window[strkey]) == 'object' && typeof(window[strkey]) == 'object' && window[strkey].length >= 1 && typeof(window[strkey][0]) == 'object') {
+var dtcpg={};
+
+for(var i=0,len=window[strkey].length; i<len; i++){
+if(typeof(dtcpg[window[strkey][i].campaignid])=='undefined'){
+dtcpg[window[strkey][i].campaignid]={};
+dtcpg[window[strkey][i].campaignid][window[strkey][i].id]=window[strkey][i];
+}else{
+
+dtcpg[window[strkey][i].campaignid][window[strkey][i].id]=window[strkey][i];
+}
+}
+dataTvc.NORMAL1=dataTvc.NORMAL;
+dataTvc.NORMAL=dtcpg;
+
+}
+try{
+if(typeof(window[strkey]) != undefined && window[strkey] != null && typeof(window[strkey]) == 'object' && typeof(window[strkey]) == 'object' && window[strkey].length >= 1  && (window[strkey][0] == -17 || window[strkey][0] == -19) ){
+AdmLoadDefault('tvcp'+'zone');
+return false;
+}
+}catch(e){}
+var tvcvzone_format = new TVCPZones();
+tvcvzone_format.InitScript();
+tvcvzone_format.OnLoaded(dataTvc);
+
+});
+})();

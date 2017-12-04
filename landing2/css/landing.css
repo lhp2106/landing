@@ -1,0 +1,803 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-size: 100% !important;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    display: block;
+    left: 50%;
+}
+
+.container {
+    background: url("../images/bg.jpg") no-repeat scroll 0px 0px;
+    width: 100%;
+    height: 974px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    float: left;
+
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+.logo_content{
+    width:125px;
+    padding-top: 75px;
+    float: left;
+
+}
+.logo{
+    background:url("../images/logo.png") no-repeat scroll 0px 0px;
+    height: 125px;
+    width: 125px;
+}
+.text_content{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+
+}
+.login_page{
+    width: 100%;
+    margin: 0 auto;
+}
+.login {
+    width: 373px;
+    margin: 0 auto;
+}
+
+.form_login {
+    background:url("../images/bg_login.png") no-repeat scroll 0px 0px;
+    height: 345px;
+    width: 373px;
+    margin-left: 4%;
+}
+.login_top{
+    width: 100%;
+    margin: 0 auto;
+}
+.login_top_left{
+    width: 37%;
+    float: left;
+}
+.login_top_right{
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+.register{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+}
+.register ul{
+    float: left;
+    width: 100%;
+    list-style-type: none;
+}
+.register ul li{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.register ul li input{
+
+    float: left;
+    width: 88%;
+    height: 50px;
+    border: 0px;
+    padding-left: 37px;
+}
+.item{
+    background: #fff;
+    border-radius: 20px;
+    float: left;
+
+}
+.icon_user{
+    background: url("../images/ic-user.png") no-repeat scroll 10px 11px;
+    width: 20px;
+    height: 19px;
+    float: left;
+}
+.icon_pass{
+    background: url("../images/ic-pass.png") no-repeat scroll 10px 11px;
+    width: 15px;
+    height: 19px;
+    float: left;
+}
+.capcha{
+    background: transparent;
+    float: left;
+    width: 140px !important;
+    padding-left: 10px !important;
+}
+.login_bot{
+    width: 335px;
+    margin: 0 auto;
+}
+.title_login{
+    width: 100%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.login_bot ul{
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: -1px;
+}
+.login_bot ul li:first-child{
+    padding-right: 70px;
+}
+.login_bot ul li:last-child{
+    padding-left: 0px;
+}
+.login_bot ul li{
+    float: left;
+    display: inline;
+
+}
+.capcha_img{
+    height: 42px;
+    min-width: 50px;
+    float: left;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn_reg{
+    background: url("../images/register.png") no-repeat scroll 0px 7px;
+    width: 150px;
+    height: 49px;
+    float: left;
+    border: none;
+
+}
+.btn_face{
+    background: url("../images/face.png") no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 49px;
+    float: left;
+}
+
+.btn_google{
+    background: url("../images/google.png") no-repeat scroll 0px 0px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+.refesh{
+    background: url("../images/icon-refesh.png") no-repeat scroll 0px 0px;
+    width: 51px;
+    height: 47px;
+    float: left;
+}
+.error{
+    height: 25px;
+    color: #ff0000;
+    float: left;
+    text-align: left;
+    width: 100%;
+    font-size: 11px;
+    font-family: Arial;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.facebook{
+    background: url("../images/ic-face.png") no-repeat scroll 0px 0px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.google{
+    background: url("../images/ic-google.png") no-repeat scroll 0px 0px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.twitter{
+    background: url("../images/ic-twiter.png") no-repeat scroll 0px 0px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.hotline{
+    background: url("../images/hotline.png") no-repeat scroll 0px 13px;
+    width: 200px;
+    height: 35px;
+    float: left;
+}
+.login_fot{
+    background: url("../images/login.png") no-repeat scroll 0px 0px;
+    width: 200px;
+    height: 47px;
+    float: left;
+}
+.social{
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.social ul{
+    float: left;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+}
+.social ul li{
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+.social ul li span{
+    color: #fff;
+    line-height: 63px;
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.lexus{
+    width: 100%;
+    float: left;
+}
+.lexus_content{
+    width: 410px;
+    margin: 0 auto;
+    margin-top: -175px;
+    float:left;
+}
+.girl{
+    width: 100%;
+    float: left;
+}
+.girl_content{
+    width: 156px;
+    float:right;
+
+}
+.content_footer{
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+.content_left{
+    width: 40%;
+    float: left;
+}
+.content_center{
+    width: 100%;
+    float: left;
+}
+.content_right{
+    width: 40%;
+    float: left;
+}
+.main{
+    width: 1400px;
+    margin: 0 auto;
+}
+.tabgame{
+
+    width: 519px;
+    height: 440px;
+    float: left;
+}
+.vq-center .vq-spin-button {
+
+    width: 539px;
+    height: 135px;
+
+    position: absolute;
+    top: 145px;
+
+    z-index: 2;
+}
+.vq-center .vq-spin-button-lx {
+
+    width: 539px;
+    height: 135px;
+    position: absolute;
+    top: 450px;
+
+    z-index: 2;
+}
+.vq-center .vq-spin-button-gs {
+
+    width: 218px;
+
+    position: absolute;
+    top: 456px;
+    z-index: 2;
+}
+@media screen and (max-width: 1400px) and (min-width: 1100px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width: 43%;
+        margin: 0 auto;
+        margin-left: 31%;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 396px;
+
+        margin-left: 4%;
+    }
+    .tabgame {
+        background: url("../images/taggame.png") no-repeat scroll 0px 0px;
+
+        height: 400px;
+        float: left;
+
+    }
+    .social {
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 199%;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+    .text_content{display: none;}
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width:525px;
+        margin: 0 auto;
+        margin-left: 24%;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 396px;
+        margin-left: 4%;
+    }
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+    }
+    .social {
+        width: 570px;
+        margin: 0 auto;
+
+
+    }
+    .news {
+        width: 400px;
+        margin: 0 auto;
+        margin-left: 35%;
+
+        float: left;
+    }
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 50%;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width:525px;
+        margin: 0 auto;
+        margin-left: 31%;
+        display: none;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 396px;
+        margin: 0 auto;
+    }
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+        display: none;
+    }
+    .social {
+        width: 570px;
+        margin: 0 auto;
+
+        margin-left: 0px;
+    }
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 42%;
+        padding-bottom: 10px;
+    }
+    .login_top_left {
+        width: 22%;
+        float: left;
+    }
+    .social ul{
+        float: left;
+        width: 100%;
+        display: block;
+        list-style-type: none;
+    }
+    .news{
+        width: 100%;;
+        margin: 0 auto;
+
+        margin-top:20px;
+        float:left;
+    }
+    .social ul li{
+        float: left;
+        display: block;
+        padding-left: 10px;
+    }
+    .social ul li span{
+        color: #fff;
+        line-height: 63px;
+        font-family: Arial;
+        font-size: 24px;
+    }
+    .login_top_right {
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 120px) {
+
+    .title_login {
+        width: 100%;
+        color: #fff;
+        font-family: Arial;
+        font-size: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 20%;
+        float: left;
+    }
+
+    .capcha_img {
+        height: 35px;
+        min-width: 48px;
+        float: left;
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .logo {
+        background: url(../images/logo.png);
+        height: 80px;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .main {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .login {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .register {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+        margin-top: 17%;
+    }
+
+    .login_bot ul li:first-child {
+        padding-right: 5px;
+    }
+
+    .register ul li input {
+        float: left;
+        height: 38px;
+        border: 0px;
+
+    }
+
+    .login_bot {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+
+    .lexus_content {
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+
+    .text_content {
+        width: 525px;
+        margin: 0 auto;
+        margin-left: 31%;
+        display: none;
+    }
+
+    .form_login {
+        background: url("../images/bg_login.png");
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 396px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .refesh {
+        background: url(../images/icon-refesh.png);
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        float: left;
+    }
+
+    .btn_reg {
+        background: url(../images/register.png);
+        width: 150px;
+        height: 42px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+    }
+
+    .btn_google {
+        background: url(../images/google.png) no-repeat scroll 0px 0px;
+        width: 45px;
+        height: 45px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .btn_face {
+        background: url(../images/face.png) no-repeat scroll 0px 0px;
+        width: 45px;
+        height: 45px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .capcha {
+        background: transparent;
+        float: left;
+        width: 100px !important;
+        padding-left: 10px !important;
+    }
+
+    .tabgame {
+
+        display: none;
+    }
+
+    .social {
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: none;
+    }
+
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 36%;
+        padding-bottom: 10px;
+    }
+
+    .login_top_left {
+
+        float: left;
+    }
+
+    .social ul {
+        float: left;
+        width: 100%;
+        display: block;
+        list-style-type: none;
+    }
+
+    .social ul li {
+        float: left;
+        display: block;
+        padding-left: 10px;
+    }
+
+    .social ul li span {
+        color: #fff;
+        line-height: 63px;
+        font-family: Arial;
+        font-size: 24px;
+    }
+
+    .login_top_right {
+        width: 100%;
+        float: left;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .container {
+        background: url(../images/bg.jpg) no-repeat scroll 0px 0px;
+        width: 100%;
+        height: 565px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}

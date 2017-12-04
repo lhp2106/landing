@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0537)http://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/longnp89/2017_11_25/Swing_980x90(1)/Swing_980x90/Swing_980x90.html?url=%2F%2Flg1.logging.admicro.vn%2Fcpx%3Fcov%3D1%26tpn%3D1%26dmn%3Dhttp%253A%252F%252Fgamek.vn%252F%26cmpg%3D1293239%26items%3D539638%26zid%3D57%26cid%3D-1%26lsn%3D1512010789976%26ce%3D1%26lc%3D4%26cr%3D1506483711%26ui%3D7264837111984346436%26re%3Dhttps%253A%252F%252Fswing.lienquan.garena.vn%252F%253Futm_source%253DAdMicro%2526utm_medium%253DCPD%2526utm_campaign%253DLienquanmobile&admid=ads_zone57_banner539638 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--bWluaHRtbDU=-->
+<!--Rm9ybWF0U3VjY2Vzc2Z1bGw=-->
+
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>Swing_980x90</title>
+
+<script src="./createjs-2015.11.26.min.js.tải xuống"></script>
+<script src="./Swing_980x90.js.tải xuống"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("1B28AAE99EC3A545A6E8E91E8E92BBB5");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.Swing_980x90();
+	stage = new lib.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		window.addEventListener("message",receiveMessage,false);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+var getQuery=function(e){var d="";return(e=new RegExp("[?&]"+encodeURIComponent(e)+"=([^&]*)").exec(location.search))&&(d=decodeURIComponent(e[1])),d},URLAdm=getQuery("url"),admid=getQuery("admid");"undefined"!==admid&&"null"!==admid&&parent.postMessage("complete_"+admid,"*");
+	}	    
+	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+
+
+<script type="text/javascript">function receiveMessage(e){try{-1!=e.data.indexOf("pause")?("function"==typeof pauseVideoBanner&&pauseVideoBanner(),createjs.Ticker.removeEventListener("tick",stage)()):-1!=e.data.indexOf("start")&&"undefined"!=typeof flagReplay&&(flagReplay,checkStatusReplay(flagReplay))}catch(e){}}function replayBanner(){createjs.Ticker.addEventListener("tick",stage),exportRoot._reset(),window.chkReset=!1,"function"==typeof initForm&&initForm(),"function"==typeof pauseVideoG&&pauseVideoG(),flagReplay=!1;var e=document.getElementById("bg_replay");e&&(e.style.display="none"),"undefined"!=typeof main&&main.gotoAndPlay(0)}function createDOM(){var e=document.createElement("div");e.id="bg_replay",e.style.display="block",e.style.width="0px",e.style.height="0px";var t=document.getElementById("canvas");t.insertBefore(e,t.firstChild)}function checkStatusReplay(e){"undefined"!=typeof playVideo?playVideo?(createjs.Ticker.addEventListener("tick",stage),"function"==typeof continueVideoBanner&&continueVideoBanner()):(createjs.Ticker.addEventListener("tick",stage),e&&replayBanner()):e?replayBanner():createjs.Ticker.addEventListener("tick",stage)}</script>
+</head>
+<body onload="init();" style="background:transparent;margin:0px;">
+	<div id="animation_container">
+		<canvas id="canvas" width="980" height="90" style="background: transparent; margin: 0px; cursor: pointer;"><div id="bg_replay" style="display: block; width: 0px; height: 0px;"></div></canvas>
+		<div id="dom_overlay_container">
+		</div>
+	</div>
+	<script type="text/javascript">(function(){if(window.console&&console.log){var old=console.log;console.log=function(){}}})();</script>
+
+</body></html>

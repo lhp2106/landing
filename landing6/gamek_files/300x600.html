@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0569)http://adi.admicro.vn/adt/banners/nam2015/4043/min_html5/quynhanh/2017_11_17/300x600/300x600/300x600.html?url=%2F%2Flg1.logging.admicro.vn%2Fadn%3Fdmn%3Dhttp%253A%2F%2Fgamek.vn%2F%26lsn%3D1512010789976%26ce%3D1%26lc%3D4%26cr%3D1506483711%26ui%3D7264837111984346436%26ii%3D2136063189%26bi%3D0%26cmpg%3D26681%26items%3D90087%26zid%3D10011%26cid%3D-1%26tp%3D11%26tpn%3D4%26cov%3D1%26pr%3D9024271715%26adc_cpa%3D1%26re%3Dhttp%253A%252F%252Flacastahanoi.vn%252F%253Futm_source%253Dadmicro_adx%2526utm_campaign%253Dadx%2526utm_content%253Dgamek.vn&admid=adnzone_10011_0_90087 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--bWluaHRtbDU=-->
+<!--Rm9ybWF0U3VjY2Vzc2Z1bGw=-->
+
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>300x600</title>
+
+<script src="./createjs-2015.11.26.min.js.tải xuống"></script>
+<script src="./300x600.js.tải xuống"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	images = images||{};
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt) {	
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib._300x600();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		window.addEventListener("message",receiveMessage,false);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+var getQuery = function(a) {
+var v = '';
+if (a = (new RegExp('[?&]' + encodeURIComponent(a) + '=([^&]*)')).exec(location.search))
+{
+    v = decodeURIComponent(a[1]);
+}
+ return v;
+};
+var URLAdm=getQuery('url'),admid=getQuery('admid');
+if (admid !== "undefined" && admid !== "null"){
+parent.postMessage('complete_'+admid,'*');
+}
+
+	}	    
+	
+	fnStartAnimation();
+}
+</script>
+
+
+<script type="text/javascript">function receiveMessage(event){try{if(event.data.indexOf("pause")!=-1){createjs.Ticker.removeAllEventListeners()}else if(event.data.indexOf("start")!=-1){if(typeof flagReplay!="undefined"){if(flagReplay){createjs.Ticker.addEventListener("tick",stage);var element=document.getElementById("bg_replay");if(element){element.style.display="none"}exportRoot._reset();flagReplay=false;window.chkReset=false;if(isVideo){repVideo()}}else{createjs.Ticker.addEventListener("tick",stage)}}}}catch(exception){}}</script>
+</head>
+<body onload="init();" style="background:transparent;margin:0px;">
+	<div id="animation_container">
+		<canvas id="canvas" width="300" height="600" style="background:transparent;margin:0px;"></canvas>
+		<div id="dom_overlay_container">
+		</div>
+	</div>
+	<script type="text/javascript">(function(){if(window.console&&console.log){var old=console.log;console.log=function(){}}})();</script>
+
+<div id="bg_replay" style="display: block; width: 0px; height: 0px;"></div></body></html>
