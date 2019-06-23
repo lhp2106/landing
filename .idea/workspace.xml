@@ -2,154 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6244ff-357a-4f02-8794-3e5853b58f33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Cong_Game_Dan_Gian/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi-thuong-tien-that_GIF.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Doi_thuong_tien_that/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_00.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_Bai_Doi_thuong/doi_thuong_19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Game_bai_doi_thuong_GIF.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/Lexus_GIF.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/bg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/bg_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/btn_reg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/dang_ky_click.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/dang_ky_nor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/doithuong.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/doithuongtienthat.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/grils.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/grils/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/grils/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/grils/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/grils1.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/ic-face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/ic-google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/ic-pass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/ic-user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/icon-refesh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/lexus.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/tabgame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/text_doithuong.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/images/twiter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/css/landing.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/md5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing9/js/scripts.js" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/landing9/css/landing.css">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landing10/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="398" column="23" lean-forward="false" selection-start-line="398" selection-start-column="23" selection-end-line="398" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing5/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="58" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing9/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="191" column="85" lean-forward="false" selection-start-line="191" selection-start-column="85" selection-end-line="191" selection-end-column="85" />
+            <state relative-caret-position="514">
+              <caret line="193" column="97" selection-start-line="193" selection-start-column="97" selection-end-line="193" selection-end-column="97" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#noscript#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#main#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +35,12 @@
     <findStrings>
       <find>@</find>
       <find>girl</find>
+      <find>/assets</find>
+      <find>icon1.png</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\Project\LdPage\landing10</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,17 +50,11 @@
       <list>
         <option value="$PROJECT_DIR$/landing9/index.html" />
         <option value="$PROJECT_DIR$/landing9/css/landing.css" />
+        <option value="$PROJECT_DIR$/landing10/index.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1917" />
     <option name="height" value="1047" />
@@ -190,58 +63,35 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="landinggit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landinggit" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LdPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LdPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="landinggit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landinggit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="landing1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landinggit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landinggit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="landing5" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landinggit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landinggit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="landing9" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="landinggit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landinggit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="landing9" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LdPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LdPage" type="462c0819:PsiDirectoryNode" />
+              <item name="landing10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561101065985" />
+    <property name="last_opened_file_path" value="D:/Project/chinhlaem" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -260,8 +110,18 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LdPage/landinggit/landing1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -271,69 +131,85 @@
       <option name="presentableId" value="Default" />
       <updated>1512983326349</updated>
       <workItem from="1512983332919" duration="4525000" />
+      <workItem from="1561092091956" duration="2032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4525000" />
+    <option name="totallyTimeSpent" value="6557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Image Layers" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/landing9/css/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="398" column="23" selection-start-line="398" selection-start-column="23" selection-end-line="398" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/landing5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="58" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="58" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/landing9/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="191" column="85" lean-forward="false" selection-start-line="191" selection-start-column="85" selection-end-line="191" selection-end-column="85" />
+        <state relative-caret-position="3247">
+          <caret line="191" column="85" selection-start-line="191" selection-start-column="85" selection-end-line="191" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing9/css/landing.css">
+    <entry file="file://$PROJECT_DIR$/landing10/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="398" column="23" lean-forward="false" selection-start-line="398" selection-start-column="23" selection-end-line="398" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="514">
+          <caret line="193" column="97" selection-start-line="193" selection-start-column="97" selection-end-line="193" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#noscript#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#main#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
