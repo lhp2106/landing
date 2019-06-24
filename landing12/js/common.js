@@ -8,7 +8,7 @@ $("#refesh").click(function(){
 });
 function getCapcha(){
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: "https://public.consodep.club/captcha",
         success: function (result) {
             var data = $.parseJSON(result);
@@ -69,10 +69,74 @@ $("#btn_reg").click(function(){
        register();
     }
 });
+
+$("#btn_update").click(function () {
+    var regex = /^[A-Za-z0-9_.]+$/;
+
+    if ($("#nickname").val() == "") {
+        $("#errorNickname").html("Nickname không được để trống");
+        $("#nickname").focus();
+    } else if ($("#nickname").val().length < 6 || $("#username").val().length > 16) {
+        $("#errorNickname").html("Tên tài khoản chứa từ 6 - 16 kí tự");
+        $("#nickname").focus();
+    } else if (!regex.test($("#nickname").val())) {
+        $("#errorNickname").html("Tên tài khoản chỉ gồm chữ cái hoặc số");
+        $("#nickname").focus();
+    } else {
+        $("#errorNickname").html("");
+        updateNickname();
+    }
+});
+
+function updateNickname() {
+    $.ajax({
+        type: "GET",
+        url: "https://public.consodep.club/nickname?",
+        data: {
+            u: $("#username").val(),
+            p: ($("#password").val()),
+            n: $("#nickname").val()
+        },
+        success: function (result) {
+            console.log(result);
+            console
+            var data = $.parseJSON(result);
+            if (data.e === 1) {
+                $("#errorNickname").html("Lỗi hệ thống");
+            }
+            if (data.e === 12) {
+                $("#errorNickname").html("Lỗi không xác định");
+            }
+            if (data.e === 46) {
+                $("#errorNickname").html("Hệ thống đang bảo trì");
+            }
+            if (data.e === 3) {
+                $("#errorNickname").html("Nickname đã tồn tại");
+            }
+            if (data.e === 4) {
+                $("#errorNickname").html("Tên đăng nhập không tồn tại");
+            }
+            if (data.e === 5) {
+                $("#errorNickname").html("Password không đúng");
+            }
+            if (data.e === 73) {
+                $("#errorNickname").html("Tên đăng nhập không hợp lệ");
+            }
+            if (data.e === 0) {
+                window.localStorage.setItem('User_Current_Info_Login', result);
+                setTimeout(function () {
+                    window.location = "http://consodep.club"
+                }, 1)
+            }
+        }
+    });
+}
+
+
 function register()
 {
     $.ajax({
-        type: "POST",
+        type: "GET",
         url: "https://public.consodep.club/register?",
         data: {
             u:$("#username").val(),
@@ -100,7 +164,7 @@ function register()
 				getCapcha();
             }
             if(data.e===6){
-                checkmobile();
+                modal()
             }
         }
     });
@@ -150,5 +214,32 @@ function checkmobile(){
     //     setTimeout(function(){location.href="http://consodep.club?a="+Base64.encode($("#username").val())+"&b="+Base64.encode(md5($("#password").val()))} , 1);
     // }
 
-    setTimeout(function(){location.href="http://consodep.club?a="+Base64.encode($("#username").val())+"&b="+Base64.encode(md5($("#password").val()))} , 1);
+    setTimeout(function(){location.href="http://consodep.club"} , 1);
+}
+
+function modal() {
+    var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+    modal.style.display = "block";
+
+
+// When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
 }

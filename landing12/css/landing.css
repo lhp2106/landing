@@ -224,7 +224,7 @@
     float: left;
     text-align: left;
     width: 100%;
-    font-size: 11px;
+    font-size: 16px;
     font-family: Arial;
     padding-left: 40px;
     line-height: 25px;
@@ -415,8 +415,8 @@
 
 .vq-center .vq-spin-button-gs {
 
-    width: 218px;
-    height: 685px;
+    /*width: 218px;*/
+    /*height: 685px;*/
     position: absolute;
     top: 150px;
     z-index: 2;
@@ -981,4 +981,99 @@ div.grils {
 
 div.grils img {
     z-index: 2;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    padding: 20px;
+    width: 610px;
+    height: 338px;
+    background-image: url("../images/alert_bg_noti.png");
+}
+
+/* The Close Button */
+.close {
+    float: right;
+    width: 60px;
+    height: 40px;
+    margin-right: -22px;
+    margin-top: -19px;
+    background-image: url('../images/btnQuaylai.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.updatenickname {
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+
+.updatenickname ul {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.updatenickname ul li {
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.itemnickname {
+    background: #fff;
+    float: left;
+}
+.updatenickname ul li input {
+    float: left;
+    width: 88%;
+    height: 46px;
+    border: 0px;
+    padding-left: 37px;
+}
+
+.btn_update {
+    background: url("../images/btn_dongy.png") no-repeat scroll 0px 0px;
+    width: 276px !important;
+    height: 93px !important;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+
+
+.errorNickname {
+    height: 25px;
+    color: #ff0000;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 25px;
+    margin-top: 30px;
 }

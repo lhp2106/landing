@@ -142,6 +142,32 @@
         </div>
     </div>
 </div>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close"></span>
+        <div class="errorNickname" id="errorNickname"></div>
+        <div class="updatenickname">
+
+            <ul>
+                <li>
+                    <div class="itemnickname"><input type="text" id="nickname" size="100" maxlength="16"
+                                                     onblur="if(this.value=='') this.value='Tên nickname'"
+                                                     onfocus="if(this.value=='Tên nickname') this.value=''"
+                                                     placeholder="Nickname (6-16 ký tự)"></div>
+                </li>
+                <li style="font-size: 18px;color: white">Chỉ chứa các ký tự a đến z , 0 đến 9 và ký tự _
+                </li>
+                <li>
+                    <input type="button" class="btn_update" value="" id="btn_update">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/md5.js"></script>
 <script type="text/javascript" src="js/base64.js"></script>
