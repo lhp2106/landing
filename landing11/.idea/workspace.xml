@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="732">
-              <caret line="160" column="18" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="160" selection-end-column="18" />
+              <caret line="160" column="18" selection-start-line="135" selection-start-column="12" selection-end-line="160" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,16 +46,16 @@
         <entry file="file://$PROJECT_DIR$/css/landing.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1769">
-              <caret line="1077" column="1" lean-forward="true" selection-start-line="985" selection-end-line="1077" selection-end-column="1" />
+              <caret line="1077" column="1" selection-start-line="985" selection-end-line="1077" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4063">
-              <caret line="239" column="1" lean-forward="true" selection-start-line="214" selection-end-line="239" selection-end-column="1" />
+            <state relative-caret-position="259">
+              <caret line="222" selection-start-line="222" selection-end-line="222" />
             </state>
           </provider>
         </entry>
@@ -91,9 +91,9 @@
       <find>getParaMKT</find>
       <find>modal</find>
       <find>modal()</find>
+      <find>checkmobile</find>
       <find>idcapcha</find>
       <find>.modal</find>
-      <find>checkmobile</find>
     </findStrings>
     <dirStrings>
       <dir>E:\Project\LdPage\landing11</dir>
@@ -152,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561364889982" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561365012266" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../landing12" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -191,12 +191,12 @@
       <updated>1561258341736</updated>
       <workItem from="1561258343174" duration="5284000" />
       <workItem from="1561264648594" duration="5639000" />
-      <workItem from="1561345221049" duration="14261000" />
+      <workItem from="1561345221049" duration="14967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25184000" />
+    <option name="totallyTimeSpent" value="25890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -270,6 +270,17 @@
     <entry file="file://$PROJECT_DIR$/js/base64.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="160" column="18" selection-start-line="135" selection-start-column="12" selection-end-line="160" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -280,25 +291,14 @@
     <entry file="file://$PROJECT_DIR$/css/landing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1769">
-          <caret line="1077" column="1" lean-forward="true" selection-start-line="985" selection-end-line="1077" selection-end-column="1" />
+          <caret line="1077" column="1" selection-start-line="985" selection-end-line="1077" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4063">
-          <caret line="239" column="1" lean-forward="true" selection-start-line="214" selection-end-line="239" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="160" column="18" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="160" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
         </state>
       </provider>
     </entry>
