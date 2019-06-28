@@ -16,7 +16,7 @@
 .container {
     background: url("../images/bg.jpg") no-repeat scroll 0px 0px;
     width: 100%;
-    height: 1080px;
+    height: 953px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -112,6 +112,7 @@
     height: 46px;
     border: 0px;
     padding-left: 37px;
+    font-size: 20px;
 }
 
 .item {
