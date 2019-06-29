@@ -26,10 +26,10 @@
         <div class="logo"><img src="images/logo.png" alt=""></div>
         <nav class="download" style="margin-top:20px">
             <!--<li id="chplay" style=""><a href="https://play.google.com/store/apps/details?id=com.giaitriviet.xemhai&hl=vi"><img src="images/download-googleplay.png" alt=""></a></li>-->
-            <li id="taiios"><a href="https://tai.boa.club/ios/"><img src="images/download-ios.png" alt=""></a></li>
-            <li id="taiapk" style=""><a href="https://tai.boa.club/Boa10.apk"><img src="images/download-apk.png" alt=""></a></li>
+            <li id="taiios" style="display:none"><a href="ios.html"><img src="images/download-ios.png" alt=""></a></li>
+            <li id="taiapk" style="display:none"><a href="https://download.consodep.club/Boa10.apk"><img src="images/download-apk.png" alt=""></a></li>
             <!-- <li><a href="https://play.google.com/store/apps/details?id=com.mori.oneline"><img src="images/download-apk.png" alt=""></a></li> -->
-            <!--<li id="taipc" style="display:none"><a href="https://tai.boa.club/Boa.exe"><img src="images/download-maytinh.png" alt=""></a></li>-->
+            <!--<li id="taipc" style="display:none"><a href="https://download.consodep.club/Boa.exe"><img src="images/download-maytinh.png" alt=""></a></li>-->
         </nav>
         <div class="slider-home">
             <div id="owl-demo" class="owl-carousel owl-theme">
@@ -42,8 +42,8 @@
         </div>
         <div class="table"><img src="images/table.png" alt=""></div>
         <nav class="otp">
-            <li id="taiotpapk" style="display:none"><a href="https://tai.boa.club/BoaOTP.apk"><img src="images/download-otp-android.png" alt=""></a></li>
-            <li id="taiotpios" style="display:none"><a href="itms-services://?action=download-manifest&url=https://tai.boa.club/manifestAppNoOTP.plist"><img src="images/download-otp-ios.png" alt=""></a></li>
+            <li id="taiotpapk" style="display:none"><a href="https://download.consodep.club/BoaOTP.apk"><img src="images/download-otp-android.png" alt=""></a></li>
+            <li id="taiotpios" style="display:none"><a href="itms-services://?action=download-manifest&url=https://download.consodep.club/manifestAppNoOTP.plist"><img src="images/download-otp-ios.png" alt=""></a></li>
         </nav>
     </div>
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
@@ -53,8 +53,8 @@
 
     <script type="text/javascript">
         var link = window.location.href;
-        if (link.indexOf("http://tai.boa.club/") >= 0) {
-            window.location.href = "https://tai.boa.club/";
+        if (link.indexOf("http://download.consodep.club/") >= 0) {
+            window.location.href = "https://download.consodep.club/";
         }
         function getMobileOperatingSystem() {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -72,18 +72,22 @@
             }
             else
             {
-                $("#taipc").css("display","");
+                //$("#taipc").css("display","");
+                $("#taiapk").css("display", "");
+                $("#taiotpapk").css("display", "");
+                $("#taiios").css("display","");
+                $("#taiotpios").css("display", "");
             }
             return "unknown";
         }
-        function myFunction() {
-            var r = confirm("Open windows in CH Play?");
-            if (r == true) {
-                window.location.href = "https://play.google.com/store/apps/details?id=com.giaitriviet.xemhai&hl=vi";
-            } else {
-
-            }
-        }
+        // function myFunction() {
+        //     var r = confirm("Open windows in CH Play?");
+        //     if (r == true) {
+        //         window.location.href = "https://play.google.com/store/apps/details?id=com.giaitriviet.xemhai&hl=vi";
+        //     } else {
+        //
+        //     }
+        // }
         getMobileOperatingSystem();
         $(document).ready(function () {
             $("#sl-popup").owlCarousel({
