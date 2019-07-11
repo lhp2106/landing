@@ -58,13 +58,22 @@ body {
     display: inline-block;
     margin: 0 5px;
 }
+.bg-dangky {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 320px;
+    z-index: 99;
+}
+
 
 .slider-home {
     position: absolute;
     width: 100%;
     text-align: center;
     left: 0;
-    top: 260px;
+    top: 30px;
     z-index: 99;
 }
 
@@ -75,31 +84,7 @@ body {
     opacity: 1;
 }
 
-.slider-home .owl-prev {
-    background: url(../images/arrow-left.png) no-repeat 0 bottom !important;
-    height: 85px;
-    width: 51px;
-    margin: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    position: absolute;
-    left: 25%;
-    display: inline-block;
-    text-indent: -9999px;
-}
 
-.slider-home .owl-next {
-    background: url(../images/arrow-right.png) no-repeat !important;
-    height: 85px;
-    width: 51px;
-    top: 50%;
-    transform: translate(0, -50%);
-    position: absolute;
-    right: 25%;
-    margin: 0;
-    display: inline-block;
-    text-indent: -9999px;
-}
 
 .slider-home .owl-theme .owl-controls {
     margin: 0;
@@ -117,7 +102,7 @@ body {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 850px;
+    top: 650px;
 }
 
 .otp li {
